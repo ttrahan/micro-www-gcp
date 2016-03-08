@@ -23,7 +23,7 @@ image from a public repository "aye0aye/micro-image"
 * Upon successful CI build, pushes the newly built Docker image to Google Container Registry
 
 #### Environment variables required for pulling and pushing from GCR in shippable.yml:
-In the shippable.yml, you won't need to change any of the environment variables:
+In the shippable.yml, you should't need to change any of the environment variables:
 - SERVICE=micro-www
 - PROJECT_ID=shippable-gke
 - REGISTRY_ACCOUNT=gcr.io/$PROJECT_ID
